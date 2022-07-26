@@ -34,7 +34,8 @@ class AziendaMadre:
                 if(answ == "no"):
                     finished = True
 
-            tasse_da_pagare = 0.
+        tasse_da_pagare = 0.
+
         for sussidiaria in sussidiarie:
             tasse_da_pagare += sussidiaria.paga_tasse()
 
